@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyProject", "Project\MyProject.vcxproj", "{53947001-9897-40B3-9C75-92C66E54C4D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{78C0CD22-4D13-472E-8016-1BA19B440C5E} = {78C0CD22-4D13-472E-8016-1BA19B440C5E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iglu", "O:\Chris' Research Stuff\code\iglu\iglu.vcxproj", "{78C0CD22-4D13-472E-8016-1BA19B440C5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53947001-9897-40B3-9C75-92C66E54C4D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53947001-9897-40B3-9C75-92C66E54C4D1}.Debug|Win32.Build.0 = Debug|Win32
+		{53947001-9897-40B3-9C75-92C66E54C4D1}.Release|Win32.ActiveCfg = Release|Win32
+		{53947001-9897-40B3-9C75-92C66E54C4D1}.Release|Win32.Build.0 = Release|Win32
+		{78C0CD22-4D13-472E-8016-1BA19B440C5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78C0CD22-4D13-472E-8016-1BA19B440C5E}.Debug|Win32.Build.0 = Debug|Win32
+		{78C0CD22-4D13-472E-8016-1BA19B440C5E}.Release|Win32.ActiveCfg = Release|Win32
+		{78C0CD22-4D13-472E-8016-1BA19B440C5E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

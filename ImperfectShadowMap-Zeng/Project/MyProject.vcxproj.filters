@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Sources\Main.cpp" />
+    <ClCompile Include="..\Sources\PointCloudReader\PointCloudReader.cpp">
+      <Filter>PointCloudReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\MultiView\GridNDCDisplay.cpp">
+      <Filter>MultiView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\MultiView\ImperfectShadowMapTest.cpp">
+      <Filter>MultiView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\MultiView\SimplePointCloudViewer.cpp">
+      <Filter>MultiView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\PointCloudReader\ISMPointCloud.cpp">
+      <Filter>PointCloudReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Sampler\Sampler.cpp">
+      <Filter>Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Camera\MyCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\GlobalData\GlobalData.cpp">
+      <Filter>GlobalData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\MultiView\ReflectiveShadowMap.cpp">
+      <Filter>MultiView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\MultiView\RSMWithVisibility.cpp">
+      <Filter>MultiView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\MultiView\SplatIndirectIllumination.cpp">
+      <Filter>MultiView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\MultiView\SimpleLambertianLighting.cpp">
+      <Filter>MultiView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PointCloudReader">
+      <UniqueIdentifier>{b700ac20-7685-4ee0-8697-2beb6d74fb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MultiView">
+      <UniqueIdentifier>{055ac5f8-bfb0-43fb-9ddf-936db4d04e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9189e52a-8dde-4c5a-aabd-9e897f6a49e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\SimpleView">
+      <UniqueIdentifier>{1f4bc1e6-2208-493b-8cfa-c1de871dd76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\GridView">
+      <UniqueIdentifier>{06571465-1483-46e2-9179-a18d5fbed474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Common">
+      <UniqueIdentifier>{f3f98b3c-1238-4e00-9900-8090b3dc25cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sampler">
+      <UniqueIdentifier>{f8e68263-e463-418d-b10a-4c38c819bce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ISMGeneration">
+      <UniqueIdentifier>{395ee3a3-7045-4371-bf68-6b7a6e3739e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlobalData">
+      <UniqueIdentifier>{2261ef94-8eb9-4f8c-ba21-bfb895875f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{2c7f37f9-d27a-4538-9172-6aed3b47621a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\RSM">
+      <UniqueIdentifier>{cf29da16-abb0-45a6-be32-fa9d6d8ee427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\RSMWithVis">
+      <UniqueIdentifier>{1220cf62-cbc5-4ec2-9c8a-f8aa984a3ac6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Sources\PointCloudReader\PointCloudReader.h">
+      <Filter>PointCloudReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\MultiView\ImperfectShadowMapTest.h">
+      <Filter>MultiView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\MultiView\GridNDCDisplay.h">
+      <Filter>MultiView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\MultiView\SimplePointCloudViewer.h">
+      <Filter>MultiView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\PointCloudReader\ISMPointCloud.h">
+      <Filter>PointCloudReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Sampler\Sampler.h">
+      <Filter>Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\GlobalData\GlobalData.h">
+      <Filter>GlobalData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Camera\MyCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\MultiView\ReflectiveShadowMap.h">
+      <Filter>MultiView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\MultiView\RSMWithVisibility.h">
+      <Filter>MultiView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\MultiView\SplatIndirectIllumination.h">
+      <Filter>MultiView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\MultiView\SimpleLambertianLighting.h">
+      <Filter>MultiView</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shaders\GridView\gridview.frag.glsl">
+      <Filter>Shaders\GridView</Filter>
+    </None>
+    <None Include="..\Shaders\GridView\gridview.vert.glsl">
+      <Filter>Shaders\GridView</Filter>
+    </None>
+    <None Include="..\Shaders\SimpleView\simpleview.frag.glsl">
+      <Filter>Shaders\SimpleView</Filter>
+    </None>
+    <None Include="..\Shaders\SimpleView\simpleview.vert.glsl">
+      <Filter>Shaders\SimpleView</Filter>
+    </None>
+    <None Include="..\Shaders\Common\common.h.glsl">
+      <Filter>Shaders\Common</Filter>
+    </None>
+    <None Include="..\Shaders\ISMGeneration\ISMGeneration.frag.glsl">
+      <Filter>Shaders\ISMGeneration</Filter>
+    </None>
+    <None Include="..\Shaders\ISMGeneration\ISMGeneration.vert.glsl">
+      <Filter>Shaders\ISMGeneration</Filter>
+    </None>
+    <None Include="..\Shaders\ISMGeneration\ISMGeneration.geom.glsl">
+      <Filter>Shaders\ISMGeneration</Filter>
+    </None>
+    <None Include="..\Shaders\ISMGeneration\ISMQuery.vert.glsl">
+      <Filter>Shaders\ISMGeneration</Filter>
+    </None>
+    <None Include="..\Shaders\ISMGeneration\ISMQuery.frag.glsl">
+      <Filter>Shaders\ISMGeneration</Filter>
+    </None>
+    <None Include="..\Shaders\ISMGeneration\pull.frag.glsl">
+      <Filter>Shaders\ISMGeneration</Filter>
+    </None>
+    <None Include="..\Shaders\ISMGeneration\push.frag.glsl">
+      <Filter>Shaders\ISMGeneration</Filter>
+    </None>
+    <None Include="..\Shaders\ISMGeneration\depthRescaler.frag.glsl">
+      <Filter>Shaders\ISMGeneration</Filter>
+    </None>
+    <None Include="..\Shaders\RSMWithVis\RSMWithVis.frag.glsl">
+      <Filter>Shaders\RSMWithVis</Filter>
+    </None>
+    <None Include="..\Shaders\RSMWithVis\RSMWithVis.vert.glsl">
+      <Filter>Shaders\RSMWithVis</Filter>
+    </None>
+    <None Include="..\Shaders\RSM\RSMGen3mrt.frag.glsl">
+      <Filter>Shaders\RSM</Filter>
+    </None>
+    <None Include="..\Shaders\RSM\RSMGen3mrt.vert.glsl">
+      <Filter>Shaders\RSM</Filter>
+    </None>
+    <None Include="..\Shaders\SimpleView\simplelambert.frag.glsl">
+      <Filter>Shaders\SimpleView</Filter>
+    </None>
+    <None Include="..\Shaders\SimpleView\simplelambert.vert.glsl">
+      <Filter>Shaders\SimpleView</Filter>
+    </None>
+    <None Include="..\Shaders\RSMWithVis\VPLSampling.frag.glsl">
+      <Filter>Shaders\RSMWithVis</Filter>
+    </None>
+    <None Include="..\Shaders\RSMWithVis\VPLSampling.geom.glsl">
+      <Filter>Shaders\RSMWithVis</Filter>
+    </None>
+    <None Include="..\Shaders\RSMWithVis\VPLSampling.vert.glsl">
+      <Filter>Shaders\RSMWithVis</Filter>
+    </None>
+    <None Include="..\Shaders\RSMWithVis\DrawVPLs.vert.glsl">
+      <Filter>Shaders\RSMWithVis</Filter>
+    </None>
+    <None Include="..\Shaders\RSMWithVis\DrawVPLs.frag.glsl">
+      <Filter>Shaders\RSMWithVis</Filter>
+    </None>
+  </ItemGroup>
+</Project>
